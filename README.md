@@ -4,3 +4,5 @@
   I made this project as a knowledge check for myself in understanding OpenGL from my initial knowledge of the subject using my 3D worldspace engine in my previous repo. Gave me firmer understanding of buffer handling as well as shader handling.
 
   Very rough prog, I'm going to be slowly building upon a single file in order to build more elaborate cellular automata so am using this repo as a quick file dump.
+
+![2024-01-1717-56-12-ezgif com-video-to-gif-converter](https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/3457ef03-4667-4dbe-9bbb-49bb638f4f04)
