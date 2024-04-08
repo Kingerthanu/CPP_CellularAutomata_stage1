@@ -16,7 +16,20 @@
 
 **The Breakdown:**
 
+  This Program Works With GLSL And OpenGL In Order To Make A Window And Draw To It In Order To Demonstrate The Basic Concept Of Conway's Game Of Life. 
 
+  In Order To Demonstrate The Game Of Life We Initialize A 2D Array Of Equally-Sized Cubes. The Cubes Will Be Represented In The Window By Given Coordinates In The Window. Using A Algorithm, We Will Place A Specified Constant Amount Of Cells In A 2D-World Map For Our Cubes. These Cubes Will Represent A Given Cell. The Cubes Are Then Wrapped In Their Own Class In Which Represents Its Vertexes Buffer Offset As Well As Alive State And Its Adjacent Neighbors.
+
+  Because Our Scene Format Will Be Quite Constant Throughout And Only Represents Squares We Can Use Only Our Offset And Still Call Our Vertex Buffer To Change Our Specified Vertexes That Represent Our Given Cell.
+
+  Other Than General Drawing Functionality, We Also Include A React function In Which Is Called Every Main Game Loop Tick. In This Reaction Function Is Where We See The Game Of Life Being Applied.
+
+  Conway's Game Of Life Works On The Concept Of A Cell (Or Given Cube) Reacting Based Upon Its Neighbors Current States. In This Iteration Of The Game We First Count Up The Amount Of Our Neighbors In Which Are Alive, The After Getting This Total We Do The Following:
+
+  &nbsp;- If We Are Alive: If We Have Either 3, Or 2 Alive Neighbors We Die From Overpopulation.
+
+  &nbsp;- If We Are Dead: If We Have 3 Alive Neighbors, Become Alive From Reproduction.
+  
 
 <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> 
 
