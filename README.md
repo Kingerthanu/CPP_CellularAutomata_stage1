@@ -29,7 +29,11 @@
   &nbsp;- If We Are Alive: If We Have Either 3, Or 2 Alive Neighbors We Die From Overpopulation.
 
   &nbsp;- If We Are Dead: If We Have 3 Alive Neighbors, Become Alive From Reproduction.
-  
+
+
+  In Order To Apply This Properly We Will Index Through Our 2D Array Of Cubes/Cells And Call Their React Function. By Constantly Calling This react Function We Simulate Evolution Of Our Cells As Each Cell In The 2D-Array Is Updated By Reference Every react Tick.
+
+  This Program Taught Me A Lot About Buffer Optimizations By Laying Out Data Properly And Utilizing This Layout To Work With Offsets For Quick Accessing In A Variable Size Stream Of Data. This Program Also Greatly Helped Me Understand Better Data Handling And Proper Class Encapsulation. Another Big Thing Understood With This Project Was Compounding Problems As In This Program, Because We Are Indexing A 2D Array IN PLACE It Means We Will Change A State When We Are Done With It Directly In Our Map Without A Update Buffer. This Means If We Want To Simulate Independent Movements That Dont Move "Down-The-Line" We Must Include Special Flags When A Cell Grows Up to Ensure That That Cell That Grew Upwards Doesn't Get Called Again When We Go To The Next Row Of Our 2D-Cells As Then We Will Call This Cell Again, Moving It Up. This Can Cause A Single "Cell/Block" To Move 2 Times When They Should Be Moving Only Once Per Cycle Of The 2D-Array.
 
 <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/b1acfe27-bfee-4250-9b6f-f761371ddf3e" alt="Cornstarch <3" width="55" height="49"> 
 
