@@ -1,4 +1,4 @@
-![plink-plinktosis](https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/23948334-b4bd-465c-b188-0717c6da0abc)![plink-plinktosis](https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/358a38d2-6107-48bc-b342-b469993b3656)# CPP_CellularAutomata_stage1
+# CPP_CellularAutomata_stage1
   Using OpenGL, this works as a project creating a 2d array of Cell* objects in which simulate state of a cell. Using the traditional game of life ruleset to turn on and off, this program will spark a small subset of the 260x260 2d array to "give life" to the simulation and start the reactions. This will go rouge and doesn't have a real way to terminate.
 
 <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/a75aa857-8712-426d-8da4-110db742dffd" alt="Cornstarch <3" width="115" height="89">
