@@ -7,4 +7,18 @@
 
   Very rough prog, I'm going to be slowly building upon a single file in order to build more elaborate cellular automata so am using this repo as a quick file dump.
 
+
+------------------------------------------------------
+
+<img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/4248d78b-b941-477c-b50e-3e6b0a3d9028" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/4248d78b-b941-477c-b50e-3e6b0a3d9028" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/4248d78b-b941-477c-b50e-3e6b0a3d9028" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/4248d78b-b941-477c-b50e-3e6b0a3d9028" alt="Cornstarch <3" width="55" height="49">
+
+
+**The Breakdown:**
+
+
+------------------------------------------------------
+
+**Features:**
+
+
 ![2024-01-1717-56-12-ezgif com-video-to-gif-converter](https://github.com/Kingerthanu/CPP_CellularAutomata_stage1/assets/76754592/3457ef03-4667-4dbe-9bbb-49bb638f4f04)
